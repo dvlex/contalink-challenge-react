@@ -1,0 +1,26 @@
+{
+    "name": "React Dev Container",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "react",
+    "forwardPorts": [5173],
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/zsh"
+            },
+            "extensions": [
+                "esbenp.prettier-vscode",
+                "dbaeumer.vscode-eslint",
+                "dsznajder.es7-react-js-snippets",
+                "formulahendry.auto-rename-tag",
+                "christian-kohler.path-intellisense",
+                "planbcoding.vscode-react-refactor",
+                "bradlc.vscode-tailwindcss",
+                "aaron-bond.better-comments",
+                "eamodio.gitlens",
+                "christian-kohler.npm-intellisense"
+            ]
+        }
+    }
+}
